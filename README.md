@@ -1,8 +1,24 @@
-# React + Vite
+# Setting up a Frontend Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Go to tailwind - FRAMEWORK > vite - copy paste the instruction in terminal
 
-Currently, two official plugins are available:
+# DaisyUI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- We will be using external library to make the UI
+- Go to installation section in DaisyUI
+- npm i daisyUi > in tailwind.config.js paste plugins
+- To test DaisyUI search navbar - paste in app.js
+- Will create seprate components (file and folder) for seprate components
+- src > component > Navbar.jsx
+
+# React-Router-DOM
+
+- install react router dom
+- In app.jsx follow the following code
+- <img src="./images/router.png" alt="Sample Image" width="600">
+- We will structure our frontend (app.jsx)
+- First mainly we will have Body component > then inside its different routes
+- App.jsx will be
+- <img src="./images/properroutestructure.png" alt="Sample Image" width="600">
+- Body.jsx
+- <img src="./images/bodyjsxoutlet.png" alt="Sample Image" width="600">
